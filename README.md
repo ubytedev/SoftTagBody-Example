@@ -91,4 +91,4 @@ This allows you to separate the decision making aspect from the project and all 
 - Cross-project interoperability by generically writing large sums of code, without actually specifying what it means implementation-wise for the most part.
 - Dynamically streaming gameplay logistics in-and-out on-demand (using Game Features) with any framework that's compatible with that generic logistics declaration archetype.
 
-Basically, being able to write the logistics responsible for capture-the-flag, without actually implementing what capture-the-flag means in the world.
+Basically, being able to write/graph-out the logistics responsible for capture-the-flag, without actually implementing what capture-the-flag means in the world.
