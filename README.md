@@ -9,14 +9,14 @@ This plugin contains one module called <code>CommonActivityStrategy</code>.
 ## When enabling this plugin
 By enabling this plugin, the following tags will be registered with your Gameplay Tags Manager:
 
-`FAgentActivityStrategyTag` ([from WorkerActivityStrategy.h](https://github.com/ubytedev/GenericActivityFramework/blob/main/Source/WorkerActivityStrategyRuntime/Public/WorkerActivityStrategy.h)) has a root tag of `"Agent.ActivityStrategy"` during the time of writing. 
+(<b>Note:</b> `FAgentActivityStrategyTag` ([from WorkerActivityStrategy.h](https://github.com/ubytedev/GenericActivityFramework/blob/main/Source/WorkerActivityStrategyRuntime/Public/WorkerActivityStrategy.h)) has a root tag of `"Agent.ActivityStrategy"` during the time of writing.)
 
 ```
 "Agent.ActivityStrategy.Nav.Near"
 "Agent.ActivityStrategy.Nav.Avoid"
 ```
 
-`FCrowdActivityStrategyTag` [(from WorkerActivityStrategy.h](https://github.com/ubytedev/GenericActivityFramework/blob/main/Source/WorkerActivityStrategyRuntime/Public/WorkerActivityStrategy.h)) has a root tag of `"Crowd.ActivityStrategy"` during the time of writing.
+(<b>Note:</b> `FCrowdActivityStrategyTag` [(from WorkerActivityStrategy.h](https://github.com/ubytedev/GenericActivityFramework/blob/main/Source/WorkerActivityStrategyRuntime/Public/WorkerActivityStrategy.h)) has a root tag of `"Crowd.ActivityStrategy"` during the time of writing.)
 
 ```
 "Crowd.ActivityStrategy.Combat.Endurance.Hardened"
