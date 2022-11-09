@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class SoftTagBodyExample : ModuleRules
+public class CommonActivityStrategy : ModuleRules
 {
-	public SoftTagBodyExample(ReadOnlyTargetRules Target) : base(Target)
+	public CommonActivityStrategy(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
 				
@@ -14,6 +14,8 @@ public class SoftTagBodyExample : ModuleRules
 				"Core",
 				"GameplayTags",
 				"SoftTagBody",
+				"WorkerActivityStrategyRuntime",
+				"Projects"
 			}
 			);
 			

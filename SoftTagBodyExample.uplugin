@@ -16,7 +16,7 @@
 	"Installed": false,
 	"Modules": [
 		{
-			"Name": "SoftTagBodyExample", 
+			"Name": "CommonActivityStrategy", 
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}
@@ -24,6 +24,10 @@
 	"Plugins": [
 		{
 			"Name": "SoftTagBody",
+			"Enabled": true
+		},
+		{
+			"Name": "GenericActivityFramework",
 			"Enabled": true
 		}
 	]
