@@ -85,7 +85,7 @@ What this means gameplay-implementation-wise is up to your project or module fol
 
 <b>But, the logistics involved in making appropriate gameplay decisions does not necessarily need to know about what 'Agent' or 'GameplayLocation' actually mean value-wise. </b>
 
-This allows you to separate (or at least minimize) the decision making aspect from the project and all its declared types altogether.
+This allows you to separate the decision making aspect from the project and all its declared types altogether (as a standalone module).
 ## Long-term vision
 
 - Cross-project interoperability by generically writing large sums of code, without actually specifying what it means implementation-wise for the most part.
