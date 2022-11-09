@@ -63,7 +63,7 @@ struct FYourAlias_CommonActivityStrategy_AgentImpl /*final*/ : public FAgentActi
 };
 ```
 
-Which registers the following tags when paired with `TSoftTagBodyFieldRegistration`
+Which registers the following tags when paired with `TSoftTagBodyFieldRegistration`:
 
 ```
 "Agent.ActivityStrategy.Nav.Near.GameplayLocation"
@@ -72,23 +72,23 @@ Which registers the following tags when paired with `TSoftTagBodyFieldRegistrati
 "Agent.ActivityStrategy.Nav.Avoid.Agent"
 ```
 
-### Optional
+## Optional (recommended)
 
-Where 'Agent' and 'GameplayLocation' remain entirely generic in this context.
+Let `Agent` and `GameplayLocation` remain entirely generic in this context.
 
-- From GameplayLocation, it's evident that we're simply avoiding navigation near a `FVector` that might dynamically adjust itself over time)
-- From Entity, it's evident that we're simply avoiding navigation near an agent.
+- From `GameplayLocation`, it's evident that we're simply avoiding navigation near a `FVector` that might dynamically adjust itself over time.
+- From `Entity`, it's evident that we're simply avoiding navigation near an agent.
 
 What this means gameplay-implementation-wise is up to your project or module following its own realm of constrains.
 
-Furthermore, this allows you to write large parts of gameplay-code without introducing any additional type dependency.
+### Extra (recommended)
 
-This allows you to write parts of gameplay-code that just 'generically' need to know about 'an agent'.
+<b>But, the logistics involved in making appropriate gameplay decisions does not necessarily need to know about what 'Agent' or 'GameplayLocation' actually mean value-wise. </b>
 
+This allows you to separate (or at least minimize) the decision making aspect from the project and all its declared types altogether.
 ## Long-term vision
 
 - Cross-project interoperability by generically writing large sums of code, without actually specifying what it means implementation-wise for the most part.
-
-- Dynamically streaming gameplay logistics in-and-out on-demand (using Game Features)
+- Dynamically streaming gameplay logistics in-and-out on-demand (using Game Features) with any 'compatible' framework 
 
 Basically, being able to write the logistics responsible for capture-the-flag, without actually implementing what capture-the-flag means in the world.
