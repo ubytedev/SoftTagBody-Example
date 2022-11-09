@@ -15,7 +15,6 @@ public class CommonActivityStrategy : ModuleRules
 				"GameplayTags",
 				"SoftTagBody",
 				"WorkerActivityStrategyRuntime",
-				"Projects"
 			}
 			);
 			
@@ -25,6 +24,7 @@ public class CommonActivityStrategy : ModuleRules
 			{
 				"CoreUObject",
 				"Engine",
+				"Projects"
 			}
 			);
 	}
