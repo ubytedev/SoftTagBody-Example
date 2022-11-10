@@ -81,8 +81,6 @@ Let `Agent` and `GameplayLocation` remain entirely generic in this context.
 
 What this means gameplay-implementation-wise is up to your project or module following its own realm of constrains.
 
-### Extra (recommended)
-
 <b>But, the logistics involved in making appropriate gameplay decisions does not necessarily need to know about what 'Agent' or 'GameplayLocation' actually mean value-wise. </b>
 
 This allows you to separate the decision making aspect from the project and all its declared types altogether (as a standalone module).
