@@ -62,12 +62,3 @@ struct FYourAlias_CommonActivityStrategy_AgentImpl /*final*/ : public FAgentActi
     FAgentActivityStrategyTag Nav_Avoid_Agent;
 };
 ```
-
-Which registers the following tags when paired with `TSoftTagBodyFieldRegistration`:
-
-```
-"Agent.ActivityStrategy.Nav.Near.GameplayLocation"
-"Agent.ActivityStrategy.Nav.Near.Agent"
-"Agent.ActivityStrategy.Nav.Avoid.GameplayLocation"
-"Agent.ActivityStrategy.Nav.Avoid.Agent"
-```
