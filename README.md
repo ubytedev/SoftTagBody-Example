@@ -33,7 +33,7 @@ By enabling this plugin, the following tags will be registered with your Gamepla
 
 The goal is to allow you to create game-specific augmentations to existing 'base' tag sets (such as `CommonActivityStrategy`, which now represents some form of 'boilerplate dependency' for other projects to use.
 
-Here's an example of what your project can add
+Here's an example of what your project can add:
 
 ```cpp
 // [Your Alias] sub-implementation of CommonActivityStrategy tags for Agents
