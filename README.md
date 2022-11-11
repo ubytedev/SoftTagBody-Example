@@ -31,7 +31,7 @@ By enabling this plugin, the following tags will be registered with your Gamepla
 
 ## Game-specific extension
 
-The goal is to allow you to create game-specific augmentations to existing 'base' tag sets (such as `CommonActivityStrategy`, which now represents some form of boilerplate dependency for other projects to use).
+The goal is to allow you to create game-specific augmentations to existing 'base' tag sets (such as `CommonActivityStrategy`, which now represents some form of 'boilerplate dependency' for other projects to use.
 
 Here's an example of what your project can add
 
