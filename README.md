@@ -71,22 +71,3 @@ Which registers the following tags when paired with `TSoftTagBodyFieldRegistrati
 "Agent.ActivityStrategy.Nav.Avoid.GameplayLocation"
 "Agent.ActivityStrategy.Nav.Avoid.Agent"
 ```
-
-And that's basically it
-
-## Optional gameplay purpose
-
-Let `Agent` and `GameplayLocation` remain entirely generic in this context.
-
-- From `GameplayLocation`, it's evident that we're simply avoiding navigation near a `FVector` that might dynamically adjust itself over time.
-- From `Entity`, it's evident that we're simply avoiding navigation near an agent.
-
-<b>The logistics involved in making appropriate gameplay decisions does not necessarily need to know about what 'Agent' or 'GameplayLocation' actually mean in the world. </b>
-
-This allows you to separate the decision making aspect from the project and all its declared types altogether (as a standalone module).
-## Long-term vision
-
-- Cross-project interoperability by generically writing large sums of code, without actually specifying what it means implementation-wise for the most part.
-- Dynamically streaming gameplay logistics in-and-out on-demand (using Game Features) with any framework that's compatible with that generic logistics declaration archetype.
-
-Basically, being able to write/script the logistics responsible for capture-the-flag, without actually implementing what capture-the-flag means in the world.
