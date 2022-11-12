@@ -1,6 +1,10 @@
 # SoftTagBody-Example
 Example of a module using the <code>SoftTagBody</code> metadata specifier on GameplayTag-derived fields.
 
+Dependencies:
+- [SoftTagBody](https://github.com/ubytedev/SoftTagBody)
+- [GenericActivityFramework](https://github.com/ubytedev/GenericActivityFramework)
+
 ## Explanation 
 This plugin contains one module called <code>CommonActivityStrategy</code>.
 
