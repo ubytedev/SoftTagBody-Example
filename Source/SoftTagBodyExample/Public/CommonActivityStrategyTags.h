@@ -1,4 +1,4 @@
-// Copyright ubyte digital. All Right Reserved. https://ubyte.dev
+// Copyright ubyte digital 2022. All Right Reserved. https://ubyte.dev
 
 #pragma once
 
